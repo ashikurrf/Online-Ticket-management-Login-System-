@@ -1,0 +1,75 @@
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: auto;}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #333;
+      height: 100%;
+    }
+        
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
+
+.header{
+    background-color: #01295f;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 4px;
+}
+
+.profile-photo{
+    height: 220px;
+    width: 220px;
+    border-radius: 120px;
+    margin-top: 50px;
+}
+
+.cover-img{
+    background-image: url(images/cover.jpg);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.name{
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 4px;
+    font-size: 35px;
+    color: white;
+}
+.cus-well{
+    background-color: #63458a;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: Montserrat, sans-serif;
+    font-size: 35px;
+    letter-spacing: 4px;
+    color: white;
+}
+
+.regbox{
+    
+    margin-left: 15%;
+    width: 70%;
+    border-style: none;
+    box-shadow: none;
+    border-bottom: 1px solid #531253;
+}
+
+.btn-reg{
+    background-color: #00092a;
+    border: none;
+    color: white;
+    border-radius: 25px;
+   padding: 8px 30px;
+}
+
+.no-border {
+    border: 0;
+    box-shadow: none; 
+}
+
